@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de colunas</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script> <!-- defer indica que esse script sera carreagado ao final do documento (É como se tivesse no fim do body) -->
+    <style>
+        .row {
+            height: 200px;
+            background-color: aliceblue;
+        }
+
+        .col-3 {
+            background-color: antiquewhite;
+            padding: 20px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-3 order-2">Coluna 1</div> -->
+            <!-- <div class="w-100"></div> quebra de linha meu-->
+            <!-- <div class="col-3 order-0">Coluna 2</div> -->
+            <!-- <div class="col-3 order-1">Coluna 3</div> -->
+
+            <!-- <div class="col-3 offset-1">Coluna 1</div> // offset-num == deslocamento de coluna à esquerda
+            <div class="col-3 offset-2">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>  -->
+
+            <!-- <div class="col-3 ms-auto">Coluna 1</div>
+            <div class="col-3 ms-auto">Coluna 2</div> ms-auto == margem start -->
+
+            <!-- <div class="col-3 mx-auto">Coluna 1</div> --><!--  mx-auto margin x (horizonal) == divide as margens direita e esquerda igualmente -->
+            <!-- <div class="col-3 ms-auto">Coluna 2</div> -->
+            
+        </div>
+
+        <div class="col-3">Coluna 1</div>
+        <div class="col-3">Coluna 2</div>
+    </div>
+    
+
+
+    <h3><a href="../index.html">Voltar ao início</a></h3>
+    
+</body>
+
+</html>
