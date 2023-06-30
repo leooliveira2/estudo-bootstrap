@@ -1,0 +1,1 @@
+https://pt.stackoverflow.com/questions/3312/como-redirecionar-o-usuário-para-outra-página-em-javascript-jquery#:~:text=Como%20mencionado%20acima%20basta%20utilizar,do%20href%20%2C%20minimizando%20seu%20código.
