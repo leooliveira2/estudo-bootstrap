@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complementos de campos de formulários</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <!-- Posso aplicar esses complementos a selects e inputs do tipo file -->
+
+    <div class="container p-5">
+        <div class="mb-3 input-group">
+            <label for="nome" class="input-group-text">Nome Completo</label>
+            <input type="text" class="form-control" id="nome">
+        </div>
+
+        <div class="mb-3 input-group">
+            <input type="text" class="form-control" id="senha">
+            <label for="senha" class="input-group-text">Senha</label>
+        </div>
+
+        <div class="mb-3 input-group">
+            <label for="valor" class="input-group-text">R$</label>
+            <input type="text" class="form-control text-end" id="valor">
+            <label for="valor" class="input-group-text">,00</label>
+        </div>
+
+        <div class="mb-3 input-group">
+            <input type="text" class="form-control text-end" id="valor">
+            <span for="valor" class="input-group-text">@</span>
+            <input type="text" class="form-control" id="valor">
+        </div>
+
+        <div class="mb-3 input-group input-group-lg">
+            <textarea class="form-control"  name="" id="texto"></textarea>
+            <label for="texto" class="input-group-text">Mensagem</label>
+        </div>
+
+        <div class="mb-3 input-group">
+            <div class="input-group-text">
+                <input type="checkbox" class="form-check-input mt-0">
+            </div>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3 input-group">
+            <span class="input-group-text">Nome completo</span>
+            <input type="text" class="form-control" placeholder="Primeiro nome">
+            <input type="text" class="form-control" placeholder="Sobrenome">
+        </div>
+
+        <div class="mb-3 input-group">
+            <span class="input-group-text">$</span>
+            <span class="input-group-text">BRL</span>
+            <input type="text" class="form-control text-end" placeholder="Valor">
+        </div>
+
+        <div class="mb-3 input-group">
+            <input type="search" class="form-control">
+            <button class="btn btn-success">Buscar</button>
+        </div>
+    </div>
+
+    <h3><a href="../index.html">Voltar ao início</a></h3>
+
+</body>
+
+</html>
