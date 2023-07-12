@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens flutuantes</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/aula30.js" defer></script>
+</head>
+
+<body>
+    <div class="container my-5">
+        <!-- <button class="btn btn-outline-success" data-bs-toggle="tooltip"
+            data-bs-title="Este botão cria um novo <b>Toast</b>" data-bs-html="true" data-bs-placement="bottom"
+            id="btnToast">Criar Toast</button> -->
+        <!-- data-bs-placement="bottom" precisa ter espaço pra direção indicada para ser exibido na posição correta -->
+
+        <button class="btn btn-outline-success" data-bs-toggle="popover" data-bs-title="Informação"
+            data-bs-content="Esta é uma informação qualquer" data-bs-placement="bottom"
+            id="btnToast">Criar Toast
+        </button>
+
+        <div class="toast-container top-0 end-0 p-3 col-4" id="toastContainer"></div>
+
+        <div class="toast" id="toast">
+            <div class="toast-header">
+                <i class="bi-info-circle me-1"></i>
+                <strong class="me-auto">Informação</strong>
+                <button class="btn-close ms-auto" data-bs-dismiss="toast"></button>
+            </div>
+
+            <div class="toast-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum aliquam, aliquid minima
+                deserunt eius optio consectetur voluptates veritatis soluta.
+            </div>
+        </div>
+
+
+
+
+        <!-- <hr> -->
+
+        <!-- <div class="row">
+            <div class="toast col-md-4" id="toast">
+                <div class="toast-header">
+                    <i class="bi-info-circle me-1"></i>
+                    <strong class="me-auto">Informação</strong>
+                    <button class="btn-close ms-auto" data-bs-dismiss="toast"></button>
+                </div>
+    
+                <div class="toast-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum aliquam, aliquid minima deserunt eius optio consectetur voluptates veritatis soluta.
+                </div>
+            </div>
+        </div> PENSAR MAIS NISSO AQUI -->
+
+        <!--  <button type="button" id="exibirToast" class="btn btn-dark mb-4">Exibir toast</button> -->
+
+        <!-- <div class="toast show text-bg-warning" data-bs-delay="1000">
+            <div class="toast-body">
+                Chegaram novas mensagens em sua caixa postal.
+                
+                <div class="mt-2 pt-2 border-top">
+                    <button class="btn btn-primary btn-sm">Visualizar</button>
+                    <button class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignorar</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+
+
+
+    <h3 class="py-5"><a href="../index.html">Voltar ao início</a></h3>
+</body>
+
+</html>

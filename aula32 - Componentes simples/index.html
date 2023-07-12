@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes simples</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <div class="container my-5">
+        <nav class="breadcrumb" style="--bs-breadcrumb-divider: ' > '">
+            <li class="breadcrumb-item">
+                <a href="#">Área restrita</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Perfil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Segurança</a>
+            </li>
+        </nav>
+
+        <hr>
+
+        <!-- <div class="spinner-border text-danger spinner-border-sm"></div> -->
+        <!-- se quiser mudar o tamanho manualmente, só alterar o width e height no css -->
+
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-grow text-success spinner-grow-sm"></div> <!-- posso colocar esses spinners dentro de um botão -->
+
+        <hr>
+
+        <div class="progress" style="height: 50px;">
+            <div class="progress-bar w-75 bg-secondary progress-bar-striped progress-bar-animated">75%</div>
+        </div>
+
+        <hr>
+
+        <div class="progress">
+            <div class="progress-bar w-25 bg-primary">25%</div>
+            <div class="progress-bar w-25 bg-success">25%</div>
+            <div class="progress-bar w-25 bg-danger">25%</div>
+        </div>
+
+        <hr>
+
+        <ul class="pagination justify-content-center"> <!-- mas tem pagination-lg e sm -->
+            <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item disabled">
+                <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">5</a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <p>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Mostrar</button>
+        </p>
+
+        <div class="collapse collapse-horizontal" id="painel">
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum laudantium distinctio amet. Quo voluptatibus reiciendis, veritatis facilis quaerat possimus impedit, suscipit ad voluptas inventore, officiis quos! Placeat perspiciatis fuga consequatur minus ut, corporis maxime fugiat at harum similique soluta libero dicta incidunt officia reiciendis omnis nisi quisquam nam cum qui eum commodi dolor! Possimus sunt quaerat, doloremque dolorem repudiandae voluptas. Sunt laborum veritatis quos iure culpa voluptatum earum. Labore id, cumque dicta enim hic temporibus veniam eos minus, quidem architecto blanditiis dolorem accusamus! Velit culpa possimus nulla, quisquam quo id qui. Amet eaque ex facere quia obcaecati iusto! Doloremque.
+            </p>
+        </div>
+
+    </div>
+
+    <h3><a href="../index.html">Voltar ao início</a></h3>
+</body>
+
+</html>
