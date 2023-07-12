@@ -4,15 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regiões retráteis / Expansíveis</title>
+    <title>Regiões retráteis / Expansíveis (Accordion)</title>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css">
     <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
 </head>
 
 <body>
-    <div class="container my-5">
-        
+    <div class="container my-3">
+        <div class="accordion accordion-flush" id="acc1">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#item1">Região 1</button>
+                </div>
+
+                <div class="accordion-collapse collapse show" id="item1" data-bs-parent="#acc1">
+                    <!-- collapse e show é pra desbugar o collapse ao clicar no botão -->
+                    <div class="accordion-body">
+                        Conteúdo 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tempora sit iste
+                        officia quae, alias voluptatem debitis tempore necessitatibus adipisci. Placeat, nobis itaque.
+                        Sunt deleniti dolorum velit possimus repellat commodi beatae aperiam ut animi sequi facilis
+                        delectus rerum debitis ullam explicabo atque non ipsa enim, nisi suscipit eius. Tenetur, eius?
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#item2">Região 2</button>
+                </div>
+
+                <div class="accordion-collapse collapse" id="item2" data-bs-parent="#acc1">
+                    <!-- colocar data-bs-parent="idAccordion" em cada accordion-collapse, para deixar somente um campo aberto por vez -->
+                    <div class="accordion-body">
+                        Conteúdo 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tempora sit iste
+                        officia quae, alias voluptatem debitis tempore necessitatibus adipisci. Placeat, nobis itaque.
+                        Sunt deleniti dolorum velit possimus repellat commodi beatae aperiam ut animi sequi facilis
+                        delectus rerum debitis ullam explicabo atque non ipsa enim, nisi suscipit eius. Tenetur, eius?
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#item3">Região 3</button>
+                </div>
+
+                <div class="accordion-collapse collapse" id="item3" data-bs-parent="#acc1">
+                    <!-- colocar data-bs-parent="idAccordion" em cada accordion-collapse, para deixar somente um campo aberto por vez -->
+                    <div class="accordion-body">
+                        Conteúdo 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tempora sit iste
+                        officia quae, alias voluptatem debitis tempore necessitatibus adipisci. Placeat, nobis itaque.
+                        Sunt deleniti dolorum velit possimus repellat commodi beatae aperiam ut animi sequi facilis
+                        delectus rerum debitis ullam explicabo atque non ipsa enim, nisi suscipit eius. Tenetur, eius?
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <h3><a href="../index.html">Voltar ao início</a></h3>

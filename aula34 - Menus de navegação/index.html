@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus de navegação (Navs e tabs)</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1>Componente Nav</h1>
+        
+        <hr>
+
+        <!-- <ul class="nav">
+            <li class="nav-item">
+                <a href="#1" class="nav-link active">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#2" class="nav-link">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#3" class="nav-link">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#4" class="nav-link disabled">Link 4</a>
+            </li>
+        </ul> -->
+
+        <nav class="nav flex-column">
+            <a href="#1" class="nav-link active">Link 1</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Link 4</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-tabs">
+            <a href="#1" class="nav-link active">Link 1</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Link 4</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-pills">
+            <a href="#1" class="nav-link active">Link 1</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Link 4</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-underline">
+            <a href="#1" class="nav-link active">Link 1</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Link 4</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-underline justify-content-center">
+            <a href="#1" class="nav-link active">Link 1</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Link 4</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-underline nav-fill"> <!-- nav-fill reparte o espaço conforme a necessidade de cada elemento -->
+            <a href="#1" class="nav-link active">Ativo</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Desabilitado</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-underline nav-justified"> <!-- nav-justified reparte um espaço igual entre os elementos -->
+            <a href="#1" class="nav-link active">Ativo</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Desabilitado</a>
+        </nav>
+
+        <hr>
+
+        <nav class="nav nav-underline nav-justified"> <!-- nav-justified reparte um espaço igual entre os elementos -->
+            <a href="#1" class="nav-link active">Ativo</a>
+            <a href="#2" class="nav-link">Link 2</a>
+            <a href="#3" class="nav-link">Link 3</a>
+            <a href="#4" class="nav-link disabled">Desabilitado</a>
+
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">Submenus</a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#1" class="dropdown-item">Submenu 1</a>
+                </li>
+                <li>
+                    <a href="#2" class="dropdown-item">Submenu 2</a>
+                </li>
+                <li>
+                    <a href="#3" class="dropdown-item">Submenu 3</a>
+                </li>
+
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+
+                <li>
+                    <a href="#4" class="dropdown-item">Submenu 4</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <h3><a href="../index.html">Voltar ao início</a></h3>
+</body>
+
+</html>
